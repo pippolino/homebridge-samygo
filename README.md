@@ -17,7 +17,7 @@ Example config.json:
 		{
 			"accessory": "SamyGO",
 			"name": "TV living room",
-			"ip_address": "192.168.1.2"
+			"ip": "192.168.1.2"
 		}
 	],
 ```
@@ -28,4 +28,4 @@ Field           | Description
 ----------------|------------
 **accessory**   | Must always be "SamyGO". (required)
 **name**        | The name you want to use to control the TV.
-**ip_address**  | The internal ip address of your Samsung TV.
+**ip**  | The internal ip address of your Samsung TV.
